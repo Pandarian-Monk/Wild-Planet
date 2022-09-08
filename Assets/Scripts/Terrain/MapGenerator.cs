@@ -4,12 +4,15 @@ using UnityEngine;
 
 public class MapGenerator : MonoBehaviour
 {
+    public enum DrawMode { NoiseMap, ColorMap, Mesh}
+    public DrawMode drawMode;
+
     public int mapWidth;
     public int mapHeight;
     public float noiseScale;
 
     public int octaves;
-    [Range(0,1)] public float persistance;
+    [Range(0, 1)] public float persistance;
     public float lacunarity;
 
     public int seed;
@@ -17,12 +20,39 @@ public class MapGenerator : MonoBehaviour
 
     public bool autoUpdate;
 
+    public TerrainType[] regions;
+
     public void GenerateMap()
     {
         float[,] noiseMap = Noise.GenerateNoiseMap(mapWidth, mapHeight, seed, noiseScale, octaves, persistance, lacunarity, offset);
 
+        Color[] colorMap = new Color[mapWidth * mapHeight];
+        for(int y=0; y < mapHeight; y++)
+            for(int x=0; x<mapWidth; x++)
+            {
+                float currentHeight = noiseMap[x, y];
+                for (int i = 0; i < regions.Length; i++)
+                    if (currentHeight <= regions[i].height)
+                    {
+                        colorMap[y * mapWidth + x] = regions[i].color;
+                        break;
+                    }
+
+            }
+
         MapDisplay display = FindObjectOfType<MapDisplay>();
-        display.DrawNoiseMap(noiseMap);
+        switch (drawMode)
+        {
+            case DrawMode.NoiseMap:
+                display.DrawTexture(TextureGenerator.TextureFromHeightMap(noiseMap));
+                break;
+            case DrawMode.ColorMap:
+                display.DrawTexture(TextureGenerator.TextureFromColorMap(colorMap, mapWidth, mapHeight));
+                break;
+            case DrawMode.Mesh:
+                display.DrawMesh(MeshGenerator.GenerateTerrainMesh(noiseMap), TextureGenerator.TextureFromColorMap(colorMap, mapWidth, mapHeight));
+                break;
+        }
     }
 
     void OnValidate()
@@ -37,4 +67,13 @@ public class MapGenerator : MonoBehaviour
             octaves = 0;
 
     }
+}
+
+[System.Serializable] 
+public struct TerrainType
+{
+    public string name;
+    [Range(0,1)]
+    public float height;
+    public Color color;
 }
