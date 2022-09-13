@@ -3,11 +3,11 @@ using System.Collections;
 
 public static class FalloffGenerator {
 
-	public static float[,] GenerateFalloffMap(int size, float radius) {
+	public static float[,] GenerateFalloffMap(int size, float radius, float edgeRadius) {
 		
 		float[,] map = new float[size,size];
 
-		float R = size / 2;
+		float R = size / 2 * edgeRadius;
 		float r = R * radius;
 		float falloffMax = R - r;
 
