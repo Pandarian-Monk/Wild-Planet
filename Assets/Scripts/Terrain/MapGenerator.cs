@@ -17,7 +17,9 @@ public class MapGenerator : MonoBehaviour {
 	public int editorPreviewLOD;
 	public float noiseScale;
 
-	public int octaves;
+	public int mapSize;
+
+    public int octaves;
 	[Range(0,1)]
 	public float persistance;
 	public float lacunarity;
@@ -35,6 +37,7 @@ public class MapGenerator : MonoBehaviour {
 
 	public TerrainType[] regions;
 	static MapGenerator instance;
+
 
 	float[,] falloffMap;
 
@@ -61,8 +64,9 @@ public class MapGenerator : MonoBehaviour {
 
 	public void DrawMapInEditor() {
 		MapData mapData = GenerateMapData (Vector2.zero);
+        falloffMap = FalloffGenerator.GenerateFalloffMap(mapChunkSize + 2, falloffRadius);
 
-		MapDisplay display = FindObjectOfType<MapDisplay> ();
+        MapDisplay display = FindObjectOfType<MapDisplay> ();
 		if (drawMode == DrawMode.NoiseMap) {
 			display.DrawTexture (TextureGenerator.TextureFromHeightMap (mapData.heightMap));
 		} else if (drawMode == DrawMode.ColourMap) {
@@ -152,7 +156,7 @@ public class MapGenerator : MonoBehaviour {
 			octaves = 0;
 		}
 
-		falloffMap = FalloffGenerator.GenerateFalloffMap (mapChunkSize+2, falloffRadius);
+		//
 	}
 
 	struct MapThreadInfo<T> {
