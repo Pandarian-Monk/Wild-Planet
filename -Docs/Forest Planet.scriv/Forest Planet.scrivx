@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ScrivenerProject Template="No" Version="2.0" Identifier="DBC06EED-946D-456B-B9A4-13F56ECCC9DE" Creator="SCRWIN-3.1.1.0" Device="DESKTOP-KIDV8BH" Modified="2022-10-27 18:04:24 +0300" ModID="7EAD0B9E-A191-4E28-BB0A-54944839BC94">
+    <Binder>
+        <BinderItem UUID="22B547DF-C56A-4209-B1A1-D0F937FEFE39" Type="DraftFolder" Created="2022-08-15 17:04:54 +0300" Modified="2022-10-27 17:54:34 +0300">
+            <Title>----</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="289BE4F8-B297-42AC-AC8C-C4DA249475E4" Type="Folder" Created="2022-10-27 05:48:37 +0300" Modified="2022-10-27 05:49:44 +0300">
+            <Title>〔задачи〕</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="81DF7425-52A0-499B-80E0-E20C83C8B072" Type="Text" Created="2022-10-27 05:34:03 +0300" Modified="2022-10-27 05:40:41 +0300">
+                    <Title>Карта</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>401,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="F84FA664-0096-4451-B15C-A79E56665080" Type="Text" Created="2022-10-27 05:34:03 +0300" Modified="2022-10-27 16:16:21 +0300">
+                    <Title>Животные</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>214,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="054ED06C-14A3-445E-8613-A4FCB64E2B3B" Type="Text" Created="2022-10-27 05:34:03 +0300" Modified="2022-10-27 05:34:55 +0300">
+                    <Title>Статистика</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="3A7706F6-2235-4E79-AB36-4357D43FB244" Type="Text" Created="2022-10-27 05:34:04 +0300" Modified="2022-10-27 05:57:35 +0300">
+                    <Title>Website</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>7,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="FDC2D95F-77EE-4347-A8D5-0CC61E55DF61" Type="Text" Created="2022-10-27 05:34:04 +0300" Modified="2022-10-27 05:57:40 +0300">
+                    <Title>Server</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>21,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="F8D63B0D-5FCC-46DC-A756-4C26872D6114" Type="Folder" Created="2022-10-27 05:48:53 +0300" Modified="2022-10-27 05:49:36 +0300">
+            <Title>〔Скетчи〕</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="9DC78993-A9E9-4678-909F-C4E06C0149C9" Type="Text" Created="2022-10-27 05:49:13 +0300" Modified="2022-10-27 16:51:19 +0300">
+                    <Title>Циклы - поведения животных</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>6,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="FC30D4C9-556C-43EB-9F3B-387B5CD75F7B" Type="Text" Created="2022-10-27 05:49:13 +0300" Modified="2022-10-27 08:54:32 +0300">
+                    <Title>Режимы - поведения</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>71,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="06894E67-1AE6-4938-83A2-930177CE756C" Type="Folder" Created="2022-10-27 16:50:12 +0300" Modified="2022-10-27 16:50:19 +0300">
+            <Title>Животные</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <TextSettings>
+                <TextSelection>0,0</TextSelection>
+            </TextSettings>
+            <Children>
+                <BinderItem UUID="FD900BB5-6110-4BB1-99CE-BE7DC6BCD4B2" Type="Text" Created="2022-10-27 05:49:13 +0300" Modified="2022-10-27 18:04:18 +0300">
+                    <Title>Потребности - Базовые</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>59,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="4E2E4EEA-D77C-4B39-A76C-BDA5AB24345B" Type="Text" Created="2022-10-27 05:49:13 +0300" Modified="2022-10-27 17:45:21 +0300">
+                    <Title>Статы - Базовые</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>182,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="B832C6D2-B4CA-4889-A431-3B31ADBC716D" Type="Text" Created="2022-10-27 17:36:50 +0300" Modified="2022-10-27 17:50:16 +0300">
+                    <Title>Шкалы</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>154,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="2BB09590-8302-46F8-9CF3-F0C7B30F0D67" Type="Text" Created="2022-10-27 16:50:25 +0300" Modified="2022-10-27 17:56:04 +0300">
+                    <Title>Психологические</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>53,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="3333595C-D252-4BFB-A969-0DFC5A453BBE" Type="Text" Created="2022-10-27 17:47:13 +0300" Modified="2022-10-27 17:52:00 +0300">
+                    <Title>Шкалы ощущений</Title>
+                    <MetaData>
+                        <LabelID>0</LabelID>
+                        <StatusID>0</StatusID>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>102,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+        <BinderItem UUID="5FB56837-EC26-49DF-84C6-49CCA5BE6AC9" Type="ResearchFolder" Created="2022-08-15 17:04:54 +0300" Modified="2022-08-15 17:04:54 +0300">
+            <Title>Research</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+        </BinderItem>
+        <BinderItem UUID="7F6F9598-0C7E-4105-A638-7415B7F85B03" Type="TrashFolder" Created="2022-08-15 17:04:54 +0300" Modified="2022-08-15 17:04:54 +0300">
+            <Title>Trash</Title>
+            <MetaData>
+                <IncludeInCompile>Yes</IncludeInCompile>
+            </MetaData>
+            <Children>
+                <BinderItem UUID="A9F13AD0-C1B1-4DE6-8555-7DF84359FC8A" Type="Text" Created="2022-08-15 17:04:54 +0300" Modified="2022-08-15 17:07:28 +0300">
+                    <Title>Концепт</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>141,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="91EC1D6A-9AA2-4893-BEE5-9E457EDDE48C" Type="Text" Created="2022-10-27 16:50:24 +0300" Modified="2022-10-27 17:17:11 +0300">
+                    <Title>Заяц</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>3,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="034DB087-9F90-4932-A451-19D5F90F673A" Type="Text" Created="2022-10-27 16:50:25 +0300" Modified="2022-10-27 17:46:13 +0300">
+                    <Title>шкалы</Title>
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="D7174A1A-6966-4944-A2CD-69E50FD522E6" Type="Text" Created="2022-10-27 17:53:40 +0300" Modified="2022-10-27 17:53:40 +0300">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="B94F5434-8241-46DC-B06C-B3F82EEB5A5A" Type="Text" Created="2022-10-27 05:50:06 +0300" Modified="2022-10-27 05:50:06 +0300">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="CE9208F6-8828-4465-9519-770ADE391E31" Type="Text" Created="2022-10-27 05:50:06 +0300" Modified="2022-10-27 05:50:06 +0300">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+                <BinderItem UUID="2B3A49DF-5D39-4B59-A003-551C737BC355" Type="Text" Created="2022-10-27 05:50:09 +0300" Modified="2022-10-27 05:50:09 +0300">
+                    <MetaData>
+                        <IncludeInCompile>Yes</IncludeInCompile>
+                    </MetaData>
+                    <TextSettings>
+                        <TextSelection>0,0</TextSelection>
+                    </TextSettings>
+                </BinderItem>
+            </Children>
+        </BinderItem>
+    </Binder>
+    <Collections>
+        <Collection Type="Binder" ID="F094F0F4-EA74-4718-962D-D7CA5C010B09" Color="0.164706 0.164706 0.164706">
+            <Title>Binder</Title>
+        </Collection>
+        <Collection Type="RecentSearch" ID="206D330A-30E6-4E55-B795-9FAC38881289" Color="0.392157 0.392157 0.392157">
+            <Title>Search Results</Title>
+            <SearchSettings Operator="Any" Type="All" Scope="All" CompileSetting="All" CaseSensitive="No" IgnoreDiacritics="No"></SearchSettings>
+        </Collection>
+    </Collections>
+    <SectionTypes>
+        <TypeDefinitions>
+            <Type ID="F1FBC777-8C1F-4A95-AA41-5ED982C23DD7">Heading</Type>
+            <Type ID="D18646A7-C0C8-4DE8-A29D-B40076E6FF38">Sub-Heading</Type>
+            <Type ID="01D5CEB5-C8F5-4D78-B426-0E50A85B3137">Section</Type>
+        </TypeDefinitions>
+        <LevelTypes>
+            <Folders>
+                <Type>F1FBC777-8C1F-4A95-AA41-5ED982C23DD7</Type>
+            </Folders>
+            <Containers>
+                <Type>01D5CEB5-C8F5-4D78-B426-0E50A85B3137</Type>
+            </Containers>
+            <Files>
+                <Type>01D5CEB5-C8F5-4D78-B426-0E50A85B3137</Type>
+            </Files>
+        </LevelTypes>
+    </SectionTypes>
+    <LabelSettings>
+        <Title>Label</Title>
+        <DefaultLabelID>-1</DefaultLabelID>
+        <Labels>
+            <Label ID="-1">No Label</Label>
+            <Label ID="0" Color="0.993500 0.701213 0.732586">Red</Label>
+            <Label ID="1" Color="0.995422 0.790951 0.652384">Orange</Label>
+            <Label ID="2" Color="0.997726 0.892729 0.652567">Yellow</Label>
+            <Label ID="3" Color="0.715862 0.948714 0.697688">Green</Label>
+            <Label ID="4" Color="0.702312 0.888273 0.974258">Blue</Label>
+            <Label ID="5" Color="0.957565 0.766751 0.999619">Purple</Label>
+        </Labels>
+    </LabelSettings>
+    <StatusSettings>
+        <Title>Status</Title>
+        <DefaultStatusID>-1</DefaultStatusID>
+        <StatusItems>
+            <Status ID="-1">No Status</Status>
+            <Status ID="0">To Do</Status>
+            <Status ID="1">In Progress</Status>
+            <Status ID="2">First Draft</Status>
+            <Status ID="3">Revised Draft</Status>
+            <Status ID="4">Final Draft</Status>
+            <Status ID="5">Done</Status>
+        </StatusItems>
+    </StatusSettings>
+    <ProjectTargets Notify="No">
+        <DraftTarget Type="Words" CountIncludedOnly="Yes" CurrentCompileGroupOnly="No" Deadline="2022-08-15 17:04:54 +0300" IgnoreDeadline="Yes">0</DraftTarget>
+        <SessionTarget Type="Words" CountDraftOnly="No" AllowNegatives="No" ResetType="Time" ResetTime="01:00" DeterminedFromDeadline="No" CanWriteOnDeadlineDate="Yes" WritingDays="">0</SessionTarget>
+        <PreviousSession Words="421" Characters="3335" Date="2022-10-27 18:04:24 +0300"/>
+    </ProjectTargets>
+    <RecentWritingHistory Date="2022-10-27 00:00:00 +0300">
+        <DraftWordCount>125</DraftWordCount>
+        <DraftCharCount>942</DraftCharCount>
+        <OtherWordCount>292</OtherWordCount>
+        <OtherCharCount>2354</OtherCharCount>
+    </RecentWritingHistory>
+    <PrintSettings PaperSize="595.0,842.0" LeftMargin="72.0" RightMargin="72.0" TopMargin="72.0" BottomMargin="72.0" PaperType="iso-a4" Orientation="Portrait" ScaleFactor="1.0" HorizontallyCentered="Yes" VerticallyCentered="Yes" Collates="No" PagesAcross="1" PagesDown="1"/>
+</ScrivenerProject>
